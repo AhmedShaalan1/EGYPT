@@ -109,7 +109,7 @@ body {
    padding: 40px;
    padding-left: 10px;
 
-   background-color: rgba(199, 108, 5, 0.568);
+   background-color: rgba(158, 126, 10, 0.473);
    bottom: 30px;
    right: 150px;
    position:absolute;
@@ -187,6 +187,12 @@ body {
 
 .right-about-heading p {
    text-align: right;
+    
+}
+
+.left-about-heading p {
+   text-align: left;
+    
 }
 
 #welcome {
@@ -210,8 +216,160 @@ body {
    background: url("../css/images/egyptian-ancient-symbol-religion-icon-egypt-deiteis-culture-design-element-vector.jpg") no-repeat center center;
    height: 100%;
    border-radius: 50%;
+
+}
+
+
+
+.locations  h1 {
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 30px;
+   text-decoration: solid;
+   border-bottom: 1px solid;
+   border-color: #4f4008;
+   cursor: pointer;
+   margin-top: -2%;
+    
+
+ }
+
+ .locations :hover {
+   background-color: #4f4008;
+   color: #fff;
+ }
+
+
+ 
+.places {
+
+   margin-left: 5% ;
+   display: flex;
+   overflow: hidden;
+   align-items: center;
+    
+}
+
+.places :hover {
+  transform: translate(10px);
+
+}
+ .card {
+   width: 330px;
+   height: 230px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 15px 25px;
+   cursor: pointer;
+   margin: 10px 15px; 
+   background-image: url(../css/images/ancient\ egypt.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   transition: transform 0.5s;
    
    
+
+ }
+
+ .card1 {
+   width: 330px;
+   height: 230px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 15px 25px;
+   cursor: pointer;
+   margin: 10px 15px; 
+   background-image: url(../css/images/coraux-mer-rouge.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   transition: transform 0.5s;
+
+ }
+ 
+
+ .card2 {
+   width: 330px;
+   height: 230px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 15px 25px;
+   cursor: pointer;
+   margin: 10px 15px; 
+   background-image: url(../css/images/nile\ cruise.jpeg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   transition: transform 0.5s;
+ }
+
+ .card3 {
+   width: 330px;
+   height: 230px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 15px 25px;
+   cursor: pointer;
+   margin: 10px 15px; 
+   background-image: url(../css/images/Cairo11.webp);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+    
+ }
+
+ .explore {
+   font-family: Oswald, sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+   width: 50px;
+   background: rgb(156, 134, 7);
+   padding: 10px;
+   text-decoration: none;
+   text-align: center;
+   text-transform: uppercase;
+   color: #fff;
+   border-radius: 5px;
+   cursor: pointer;
+   box-shadow: 0 0 10px;
+    bottom: 10px;
+    position: relative;
+    
+ }
+
+  h5 {
+   font-family: Oswald, sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   text-decoration: none;
+
+   text-transform: uppercase;
+   color: rgb(248, 248, 248);
+   float: right;
+   position:relative;
+  
+ }
+
+ footer {
+  height: 150px;
+ }
+
+ .social-links {
+  text-align: center;
+ }
+
+ .social-links > li {
+  display: inline;
+
+ }
+
+
+ .social-links i {
+  font-size: 200%;
+  margin: 2%;
+  padding: 5%;
+  color: #3a3a3a;
 
 
 }
