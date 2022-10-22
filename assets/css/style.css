@@ -109,7 +109,7 @@ body {
    padding: 40px;
    padding-left: 10px;
 
-   background-color: rgba(158, 126, 10, 0.473);
+   background-color: rgba(238, 212, 117, 0.527);
    bottom: 30px;
    right: 150px;
    position:absolute;
@@ -234,13 +234,7 @@ body {
 
  }
 
- .locations :hover {
-   background-color: #4f4008;
-   color: #fff;
- }
-
-
- 
+  
 .places {
 
    margin-left: 5% ;
@@ -340,19 +334,21 @@ body {
 
   h5 {
    font-family: Oswald, sans-serif;
-   font-size: 20px;
-   font-weight: bold;
-   text-decoration: none;
-
-   text-transform: uppercase;
-   color: rgb(248, 248, 248);
+    font-size: 30px;
+   font-weight: 300px;
+   color: #3f2b03;
    float: right;
-   position:relative;
+   margin: 0px;
+ 
+   
   
  }
 
  footer {
   height: 150px;
+  margin-top: 50px;
+  position: relative;
+
  }
 
  .social-links {
@@ -361,15 +357,176 @@ body {
 
  .social-links > li {
   display: inline;
+  margin-bottom: 20px;
+  margin-top: 50px;
+
 
  }
 
 
  .social-links i {
-  font-size: 200%;
-  margin: 2%;
+  font-size: 180%;
+   
   padding: 5%;
   color: #3a3a3a;
 
+  margin-bottom: 20px;
+ 
+}
 
+.social-links > h3 {
+  text-align: center;
+  font-size: 35px;
+  color: #252525;
+ 
+  font-family: oswald;
+  font-weight: bold;
+  margin:  150px 0 0;
+  
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: solid;
+  border-bottom: 1px solid;
+  border-color: #4f4008;
+  cursor: pointer;
+  text-transform:uppercase;
+  font-style:initial;
+  letter-spacing: 1px;
+  
+   
+  
+}
+ 
+
+ 
+.container {
+   display: flex;
+   justify-content: center;
+   clear: both;
+    
+    
+
+}
+
+
+.card-1 {
+  background:rgb(244, 245, 232);
+  width: 300px;
+ 
+  margin: 10px;
+}
+ 
+.card-image {
+  
+  height: 220px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px ;
+  background-position: center;
+
+
+}
+
+.image1 {
+  background-image: url(../css/images/the\ great\ pyramid.jpg);
+
+}
+
+.image2 {
+  background-image: url(../css/images/pryamids/hattipsut.jpg);
+
+}
+
+.image3 {
+
+  background-image: url(../css/images/pryamids/luxor\ temple.jpg);
+}
+ 
+.image4 {
+
+  background-image: url(../css/images/pryamids/Dahab.jpg);
+}
+
+
+.image5 {
+
+  background-image: url(../css/images/pryamids/sharm\ el\ shiekh.jpg);
+}
+
+.image6 {
+
+  background-image: url(../css/images/pryamids/hurgada.jpeg);
+}
+
+
+.image7 {
+
+  background-image: url(../css/images/pryamids/experience-nile-cruise-egypt-holiday.webp);
+}
+
+.image8 {
+
+  background-image: url(../css/images/pryamids/Aswan-Egypt.jpg);
+}
+
+.image9 {
+
+  background-image: url(../css/images/pryamids/Luxor.jpg);
+}
+
+
+.image10 {
+
+  background-image: url(../css/images/pryamids/The\ Egyptian\ Museum.jpg);
+}
+
+.image11 {
+
+  background-image: url(../css/images/pryamids/Khan\ el-Khalili.jpg);
+}
+
+
+.image12 {
+
+  background-image: url(../css/images/pryamids/Salah\ Eldeen.jpg);
+}
+
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  font-family: oswald;
+  background-color: #ebdfb3;
+   text-align: center;
+
+}
+
+.card-1 p {
+  padding: 10px;
+  text-align: left;
+  font-family: oswald;
+  
+}
+
+.card-1 a {
+  background-color: #252503;
+  color: #fff;
+  padding: 10px 20px;
+  display:inline-block;
+  text-align: center;
+  margin: 15px 60px;
+  text-decoration: none;
+  border-radius: 15px;
+
+  
+
+}
+
+.sec1234 {
+  
+ margin: 30px;
+ padding-top: 30px;
+  
+ 
 }
