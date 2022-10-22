@@ -1,532 +1,613 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
- }
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    body {
+        font-family: Lato, sans-serif;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
 
- /* heading and logo */
+    /* heading and logo */
 
- h1, h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
- }
+    h1, h2 {
+        font-family: Oswald, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #252525;
+    }
 
- #logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
-
-
- }
-
- #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
- }
-
- #menu, #logo {
-    line-height: 75px;
- }
- #menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
- }
-
- #menu a {
-    text-decoration: none;
-    color: inherit;
- }
-
- #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-    color: #4f4008;
- }
-
- .active {
-    border-bottom: 1px solid #3a3a3a;
- }
+    #logo {
+        float: left;
+        font-size: 280%;
+        margin-left: 30px;
 
 
- /* Hero Image */
+    }
 
- #cover-text, #cover-text h2 {
-   color: #fff;
+    #menu {
+        font-size: 110%;
+        letter-spacing: 4px;
+    }
 
- }
+    #menu, #logo {
+        line-height: 75px;
+    }
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 30px;
+    }
 
- #hero-outer {
-   height: 600px;
-   width: 100%;
-   overflow: hidden;
-   position: relative;
-  
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+    }
 
-}
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+        color: #4f4008;
+    }
 
- #hero-image {
-    height: 600px;
-    width: 100%;
-    background: url(../css/images/bodyguard-services-egypt\ copy.jpg) no-repeat center center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-     
- 
-   
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+
+    /* Hero Image */
+
+    #cover-text, #cover-text h2 {
+      color: #fff;
+
+    }
+
+    #hero-outer {
+      height: 600px;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      
+
+    }
+
+    #hero-image {
+        height: 600px;
+        width: 100%;
+        background: url(../css/images/bodyguard-services-egypt\ copy.jpg) no-repeat center center;
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        
     
- }
+      
+        
+    }
 
 
- 
- @keyframes hero-zoom {
-   form{
-      transform: scale(1); 
-   }
-
-   to {
-      transform: scale(1.1);
-   }
- }
-
- #cover-text {
-   font-size: 100%;
-   font-family: Oswald, sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 4px;
-   width: 250px;
-   height: 200px;
-   
-   padding: 40px;
-   padding-left: 10px;
-
-   background-color: rgba(238, 212, 117, 0.527);
-   bottom: 30px;
-   right: 150px;
-   position:absolute;
-   
- }
-
- #cover-text :hover { background-color: #a7800156;
-
-
- }
-
- #cover-text > h2{
-   font-weight: 500;
-   font-size: 40px;
- }
-
- h3 {
-   font-size: 17px;
-   
-
- }
-
- /*Why Egypt*/
-
- #whyegy {
-   height:600px;
-
- }
-
- #left-about {
-   padding-top: 30px;
-   width: 33%;
-   float: left;
- }
-
- #right-about {
-   padding-top: 30px;
-   width: 33%;
-   float: right;
- }
-
- #center-about {
-   
-   width: 33%;
-   float: right;
- }
-
- hr {
-   border-top: 1px solid #3a3a3a;
-   width: 100%;
-   margin: 5px 0;
-
- }
- 
- .left-about-heading{
-   width: 60%;
-   float: right;
-   line-height: 20px;
-   clear: both;
-   margin-bottom: 50px;
- }
-
- .right-about-heading{
-   width: 60%;
-   float: left;
-   line-height: 20px;
-   clear: both;
-   margin-bottom: 50px;
- }
-
- .right-about-heading h2 {
-   text-align: right;
- }
-
-
-.right-about-heading p {
-   text-align: right;
     
-}
+    @keyframes hero-zoom {
+      form{
+          transform: scale(1); 
+      }
 
-.left-about-heading p {
-   text-align: left;
+      to {
+          transform: scale(1.1);
+      }
+    }
+
+    #cover-text {
+      font-size: 100%;
+      font-family: Oswald, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      width: 250px;
+      height: 200px;
+      
+      padding: 40px;
+      padding-left: 10px;
+
+      background-color: rgba(238, 212, 117, 0.527);
+      bottom: 30px;
+      right: 150px;
+      position:absolute;
+      
+    }
+
+    #cover-text :hover { background-color: #a7800156;
+
+
+    }
+
+    #cover-text > h2{
+      font-weight: 500;
+      font-size: 40px;
+    }
+
+    h3 {
+      font-size: 17px;
+      
+
+    }
+
+    /*Why Egypt*/
+
+    #whyegy {
+      height:600px;
+
+    }
+
+    #left-about {
+      padding-top: 30px;
+      width: 33%;
+      float: left;
+    }
+
+    #right-about {
+      padding-top: 30px;
+      width: 33%;
+      float: right;
+    }
+
+    #center-about {
+      
+      width: 33%;
+      float: right;
+    }
+
+    hr {
+      border-top: 1px solid #3a3a3a;
+      width: 100%;
+      margin: 5px 0;
+
+    }
     
-}
+    .left-about-heading{
+      width: 60%;
+      float: right;
+      line-height: 20px;
+      clear: both;
+      margin-bottom: 50px;
+    }
 
-#welcome {
-   text-align: center;
-   margin: 20px 0;
-   font-size: 280%;
-}
+    .right-about-heading{
+      width: 60%;
+      float: left;
+      line-height: 20px;
+      clear: both;
+      margin-bottom: 50px;
+    }
 
-#circle-container {
-   width: 300px;
-   height: 300px;
-   border-style: solid;
-   border-color: #ccc;
-   border-width: 1px;
-   border-radius: 50%;
-   margin: 0 auto;
-
-}
-
-#circle-cover-bg {
-   background: url("../css/images/egyptian-ancient-symbol-religion-icon-egypt-deiteis-culture-design-element-vector.jpg") no-repeat center center;
-   height: 100%;
-   border-radius: 50%;
-
-}
+    .right-about-heading h2 {
+      text-align: right;
+    }
 
 
+    .right-about-heading p {
+      text-align: right;
+        
+    }
 
-.locations  h1 {
-   margin: 0 auto;
-   text-align: center;
-   margin-bottom: 30px;
-   text-decoration: solid;
-   border-bottom: 1px solid;
-   border-color: #4f4008;
-   cursor: pointer;
-   margin-top: -2%;
-    
+    .left-about-heading p {
+      text-align: left;
+        
+    }
 
- }
+    #welcome {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 280%;
+    }
 
-  
-.places {
+    #circle-container {
+      width: 300px;
+      height: 300px;
+      border-style: solid;
+      border-color: #ccc;
+      border-width: 1px;
+      border-radius: 50%;
+      margin: 0 auto;
 
-   margin-left: 5% ;
-   display: flex;
-   overflow: hidden;
-   align-items: center;
-    
-}
+    }
 
-.places :hover {
-  transform: translate(10px);
+    #circle-cover-bg {
+      background: url("../css/images/egyptian-ancient-symbol-religion-icon-egypt-deiteis-culture-design-element-vector.jpg") no-repeat center center;
+      height: 100%;
+      border-radius: 50%;
 
-}
- .card {
-   width: 330px;
-   height: 230px;
-   display: inline-block;
-   border-radius: 10px;
-   padding: 15px 25px;
-   cursor: pointer;
-   margin: 10px 15px; 
-   background-image: url(../css/images/ancient\ egypt.jpg);
-   background-position: center;
-   background-size: cover;
-   position: relative;
-   transition: transform 0.5s;
-   
-   
-
- }
-
- .card1 {
-   width: 330px;
-   height: 230px;
-   display: inline-block;
-   border-radius: 10px;
-   padding: 15px 25px;
-   cursor: pointer;
-   margin: 10px 15px; 
-   background-image: url(../css/images/coraux-mer-rouge.jpg);
-   background-position: center;
-   background-size: cover;
-   position: relative;
-   transition: transform 0.5s;
-
- }
- 
-
- .card2 {
-   width: 330px;
-   height: 230px;
-   display: inline-block;
-   border-radius: 10px;
-   padding: 15px 25px;
-   cursor: pointer;
-   margin: 10px 15px; 
-   background-image: url(../css/images/nile\ cruise.jpeg);
-   background-position: center;
-   background-size: cover;
-   position: relative;
-   transition: transform 0.5s;
- }
-
- .card3 {
-   width: 330px;
-   height: 230px;
-   display: inline-block;
-   border-radius: 10px;
-   padding: 15px 25px;
-   cursor: pointer;
-   margin: 10px 15px; 
-   background-image: url(../css/images/Cairo11.webp);
-   background-position: center;
-   background-size: cover;
-   position: relative;
-    
- }
-
- .explore {
-   font-family: Oswald, sans-serif;
-   font-size: 15px;
-   font-weight: bold;
-   width: 50px;
-   background: rgb(156, 134, 7);
-   padding: 10px;
-   text-decoration: none;
-   text-align: center;
-   text-transform: uppercase;
-   color: #fff;
-   border-radius: 5px;
-   cursor: pointer;
-   box-shadow: 0 0 10px;
-    bottom: 10px;
-    position: relative;
-    
- }
-
-  h5 {
-   font-family: Oswald, sans-serif;
-    font-size: 30px;
-   font-weight: 300px;
-   color: #3f2b03;
-   float: right;
-   margin: 0px;
- 
-   
-  
- }
-
- footer {
-  height: 150px;
-  margin-top: 50px;
-  position: relative;
-
- }
-
- .social-links {
-  text-align: center;
- }
-
- .social-links > li {
-  display: inline;
-  margin-bottom: 20px;
-  margin-top: 50px;
+    }
 
 
- }
 
+    .locations  h1 {
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 30px;
+      text-decoration: solid;
+      border-bottom: 1px solid;
+      border-color: #4f4008;
+      cursor: pointer;
+      margin-top: -2%;
+        
 
- .social-links i {
-  font-size: 180%;
-   
-  padding: 5%;
-  color: #3a3a3a;
+    }
 
-  margin-bottom: 20px;
- 
-}
+      
+    .places {
 
-.social-links > h3 {
-  text-align: center;
-  font-size: 35px;
-  color: #252525;
- 
-  font-family: oswald;
-  font-weight: bold;
-  margin:  150px 0 0;
-  
-  text-align: center;
-  margin-bottom: 20px;
-  text-decoration: solid;
-  border-bottom: 1px solid;
-  border-color: #4f4008;
-  cursor: pointer;
-  text-transform:uppercase;
-  font-style:initial;
-  letter-spacing: 1px;
-  
-   
-  
-}
- 
+      margin-left: 5% ;
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+        
+    }
 
- 
-.container {
-   display: flex;
-   justify-content: center;
-   clear: both;
-    
+    .places :hover {
+      transform: translate(10px);
+
+    }
+    .card {
+      width: 330px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      cursor: pointer;
+      margin: 10px 15px; 
+      background-image: url(../css/images/ancient\ egypt.jpg);
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      transition: transform 0.5s;
+      
+      
+
+    }
+
+    .card1 {
+      width: 330px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      cursor: pointer;
+      margin: 10px 15px; 
+      background-image: url(../css/images/coraux-mer-rouge.jpg);
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      transition: transform 0.5s;
+
+    }
     
 
-}
+    .card2 {
+      width: 330px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      cursor: pointer;
+      margin: 10px 15px; 
+      background-image: url(../css/images/nile\ cruise.jpeg);
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      transition: transform 0.5s;
+    }
 
+    .card3 {
+      width: 330px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      cursor: pointer;
+      margin: 10px 15px; 
+      background-image: url(../css/images/Cairo11.webp);
+      background-position: center;
+      background-size: cover;
+      position: relative;
+        
+    }
 
-.card-1 {
-  background:rgb(244, 245, 232);
-  width: 300px;
- 
-  margin: 10px;
-}
- 
-.card-image {
+    .explore {
+      font-family: Oswald, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      width: 50px;
+      background: rgb(156, 134, 7);
+      padding: 10px;
+      text-decoration: none;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 0 10px;
+        bottom: 10px;
+        position: relative;
+        
+    }
+
+      h5 {
+      font-family: Oswald, sans-serif;
+        font-size: 30px;
+      font-weight: 300px;
+      color: #3f2b03;
+      float: right;
+      margin: 0px;
+    
+      
+      
+    }
+
+    footer {
+      height: 150px;
+      margin-top: 50px;
+      position: relative;
+
+    }
+
+    .social-links {
+      text-align: center;
+    }
+
+    .social-links > li {
+      display: inline;
+      margin-bottom: 20px;
+      margin-top: 50px;
   
-  height: 220px;
-  margin-bottom: 15px;
-  background-size: cover;
-  border-radius: 15px ;
-  background-position: center;
+    }
 
 
-}
+    .social-links i {
+      font-size: 180%;
+      
+      padding: 5%;
+      color: #3a3a3a;
 
-.image1 {
-  background-image: url(../css/images/the\ great\ pyramid.jpg);
+      margin-bottom: 20px;
+    
+    }
 
-}
+    .social-links > h3 {
+      text-align: center;
+      font-size: 35px;
+      color: #252525;
+    
+      font-family: oswald;
+      font-weight: bold;
+      margin:  150px 0 0;
+      
+      text-align: center;
+      margin-bottom: 20px;
+      text-decoration: solid;
+      border-bottom: 1px solid;
+      border-color: #4f4008;
+      cursor: pointer;
+      text-transform:uppercase;
+      font-style:initial;
+      letter-spacing: 1px;
+      
+    }
+    
 
-.image2 {
-  background-image: url(../css/images/pryamids/hattipsut.jpg);
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      clear: both;
+        
+        
 
-}
-
-.image3 {
-
-  background-image: url(../css/images/pryamids/luxor\ temple.jpg);
-}
- 
-.image4 {
-
-  background-image: url(../css/images/pryamids/Dahab.jpg);
-}
-
-
-.image5 {
-
-  background-image: url(../css/images/pryamids/sharm\ el\ shiekh.jpg);
-}
-
-.image6 {
-
-  background-image: url(../css/images/pryamids/hurgada.jpeg);
-}
-
-
-.image7 {
-
-  background-image: url(../css/images/pryamids/experience-nile-cruise-egypt-holiday.webp);
-}
-
-.image8 {
-
-  background-image: url(../css/images/pryamids/Aswan-Egypt.jpg);
-}
-
-.image9 {
-
-  background-image: url(../css/images/pryamids/Luxor.jpg);
-}
+    }
 
 
-.image10 {
+    .card-1 {
+      background:rgb(244, 245, 232);
+      width: 300px;
+    
+      margin: 10px;
+    }
+    
+    .card-image {
+      
+      height: 220px;
+      margin-bottom: 15px;
+      background-size: cover;
+      border-radius: 15px ;
+      background-position: center;
 
-  background-image: url(../css/images/pryamids/The\ Egyptian\ Museum.jpg);
-}
 
-.image11 {
+    }
 
-  background-image: url(../css/images/pryamids/Khan\ el-Khalili.jpg);
-}
+    .image1 {
+      background-image: url(../css/images/the\ great\ pyramid.jpg);
+
+    }
+
+    .image2 {
+      background-image: url(../css/images/pryamids/hattipsut.jpg);
+
+    }
+
+    .image3 {
+
+      background-image: url(../css/images/pryamids/luxor\ temple.jpg);
+    }
+    
+    .image4 {
+
+      background-image: url(../css/images/pryamids/Dahab.jpg);
+    }
 
 
-.image12 {
+    .image5 {
 
-  background-image: url(../css/images/pryamids/Salah\ Eldeen.jpg);
-}
+      background-image: url(../css/images/pryamids/sharm\ el\ shiekh.jpg);
+    }
+
+    .image6 {
+
+      background-image: url(../css/images/pryamids/hurgada.jpeg);
+    }
 
 
-h4 {
-  font-size: 20px;
-  margin-bottom: 5px;
-  letter-spacing: 1px;
-  font-family: oswald;
-  background-color: #ebdfb3;
-   text-align: center;
+    .image7 {
 
-}
+      background-image: url(../css/images/pryamids/experience-nile-cruise-egypt-holiday.webp);
+    }
 
-.card-1 p {
-  padding: 10px;
-  text-align: left;
-  font-family: oswald;
-  
-}
+    .image8 {
 
-.card-1 a {
-  background-color: #252503;
-  color: #fff;
-  padding: 10px 20px;
-  display:inline-block;
-  text-align: center;
-  margin: 15px 60px;
-  text-decoration: none;
-  border-radius: 15px;
+      background-image: url(../css/images/pryamids/Aswan-Egypt.jpg);
+    }
 
-  
+    .image9 {
 
-}
+      background-image: url(../css/images/pryamids/Luxor.jpg);
+    }
 
-.sec1234 {
-  
- margin: 30px;
- padding-top: 30px;
-  
- 
-}
+
+    .image10 {
+
+      background-image: url(../css/images/pryamids/The\ Egyptian\ Museum.jpg);
+    }
+
+    .image11 {
+
+      background-image: url(../css/images/pryamids/Khan\ el-Khalili.jpg);
+    }
+
+
+    .image12 {
+
+      background-image: url(../css/images/pryamids/Salah\ Eldeen.jpg);
+    }
+
+
+    h4 {
+      font-size: 20px;
+      margin-bottom: 5px;
+      letter-spacing: 1px;
+      font-family: oswald;
+      background-color: #ebdfb3;
+      text-align: center;
+
+    }
+
+    .card-1 p {
+      padding: 10px;
+      text-align: left;
+      font-family: oswald;
+      
+    }
+
+    .card-1 a {
+      background-color: #252503;
+      color: #fff;
+      padding: 10px 20px;
+      display:inline-block;
+      text-align: center;
+      margin: 15px 60px;
+      text-decoration: none;
+      border-radius: 15px;
+
+      
+
+    }
+
+    .sec1234 {
+      
+    margin: 30px;
+    padding-top: 30px;
+      
+    
+    }
+
+    .card-1:hover {
+
+      background-color: rgba(255, 253, 253, 0.966) ;
+      color: rgb(17, 1, 1);
+      transform:scale(1.03) ;
+      transition: all 1s ease;
+
+    }
+
+
+    .form-section  {
+      clear: both;
+      text-align: center;
+      background-image: url(../css/images/contactimage.jpg);
+      background-size: cover;
+      font-family: Oswald sans-serif;
+      width: 90%;
+      padding: 100px;
+      background-position: center;
+      height: 700px;
+      margin-bottom: -50px;
+       
+    
+    }
+
+    
+
+    .title1 h1 {
+      font-size: 32px;
+      line-height: 10px;
+    }
+
+    .title1 h2 {
+      margin-top: 100px;
+    }
+
+    .contact-form {
+      margin-top: 50px;
+
+    }
+
+    .form-control {
+
+      background: transparent;
+      border: none;
+      width: 600px;
+      outline: none;
+      border-bottom: 1px solid rgba(224, 11, 11, 0.774);
+      color: rgb(252, 252, 252);
+      font-size: 18px;
+      margin-bottom: 16px;
+
+
+    }
+
+    input {
+      height: 60px;
+    }
+
+    form .submit {
+      background-color: #ff5722;
+      border-color: transparent;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      letter-spacing: 2px;
+      height: 50px;
+      margin-top: 20px ;
+      transition: 4s ease;
+
+
+    }
+
+    form .submit :hover {
+      background-color: #e6d2d1;
+      cursor: pointer;
+      color: #ebdfb3;
+    }
+
+    .form-section h1, h2 {
+      color: #fff;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
